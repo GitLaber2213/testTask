@@ -1,0 +1,17 @@
+.container {
+    padding: 20px;
+    background-color: #272938;
+    border-radius: .5rem;
+}
+
+.container form div {
+    margin-bottom: .2rem;
+}
+
+.phoneNumberContainer {
+    display: flex;
+}
+
+.phoneNumberContainer div {
+    width: 100%;
+}

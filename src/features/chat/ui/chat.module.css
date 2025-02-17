@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    max-width: 100vh;
+    max-height: 100vh;
+    position: relative;
+}
+
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: var(--bg-image);
+    opacity: 0.1;
+    z-index: -1;
+    
+}
